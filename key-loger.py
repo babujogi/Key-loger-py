@@ -6,7 +6,7 @@ import random
 import atexit
 from dotenv import load_dotenv
 
-# Safe placeholders (make sure to define these in a .env file)
+# Safe placeholders
 webhook_url = ""
 token = ""
 
