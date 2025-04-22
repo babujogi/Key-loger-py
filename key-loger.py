@@ -6,12 +6,9 @@ import random
 import atexit
 from dotenv import load_dotenv
 
-# Load environment variables from a .env file
-load_dotenv()
-
 # Safe placeholders (make sure to define these in a .env file)
-webhook_url = os.getenv("WEBHOOK_URL")  # Example: https://your.server/api/endpoint
-token = os.getenv("TOKEN")
+webhook_url = ""
+token = ""
 
 # Random ID per session
 session_id = random.randint(1, 10000)
